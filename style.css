@@ -1,0 +1,398 @@
+:root {
+    --bg-color-primary: #1e1e1e;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    display: block;
+    padding: 15px;
+    text-align: center;
+    background-color: var(--bg-color-primary);
+    color: #fff;   
+}
+
+
+.center {
+    display: inline-flex;
+    gap: 15px;
+    padding-bottom: 15px;
+}
+
+
+.center-2 {
+    top: 100px;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul, nav li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav a {
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+}
+
+
+.center-2 li {
+    display: inline;
+    font-size: 11px;  
+}
+
+a {
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 5px;
+    font-size: 14px;
+}
+
+.center-2 a:hover {
+    background-color: rgb(70, 70, 3);
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.imagem {
+    background-image: url(src/img/singers-michael-jackson-wallpaper-preview.jpg);
+    opacity: 50%;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 363px;
+    
+}
+
+.sobre-mj {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 0 50px 0;
+    gap: 45px;
+}
+
+.img-desc {
+    border-radius: 50%;
+}
+
+.desc-mj, .desc-influ {
+    font-size: 17px;
+    text-align: justify;
+    width: 560px;
+    font-style: oblique;
+    padding-bottom: 50px;
+}
+
+.influ-mj, #jornada, #icone-cultural {
+    padding: 80px 0 80px 0;
+    gap: 45px;
+    font-size: 17px;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+}
+
+#jornada {
+    background-color: var(--bg-color-primary);
+    color: #fff;
+}
+
+#jornada p {
+    text-align: justify;
+    font-style: oblique;
+    text-indent: 170px;
+    width: 650px;
+    padding: 15px;
+    border-radius: 25px;
+}
+
+
+.jornada-info {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 105px;
+
+}
+
+.jornada-info img {
+    border-radius: 35px;
+    box-shadow: 60px -16px rgba(194, 196, 196, 0.89);
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: 35px;
+    font-family: "Loved by the King";
+    text-align: center;
+}
+
+.img-influ {
+    background-color: var(--bg-color-primary);
+    display: inline-flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+    font-size: 10px;
+}
+
+.influ-secoes {
+    display: flex;
+    justify-content: center; 
+    gap: 30px;
+}
+
+.secao1, .secao2, .secao3, .secao4, .secao5 {
+    width: 200px;
+    height: 250px;
+    overflow: auto;
+    border: 1px solid black;
+}
+
+::-webkit-scrollbar {
+    width: 2px; /* Largura da barra */
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888; /* Cor da barra */
+}
+
+.secao2, .secao4 {
+    margin-top: 65px;
+}
+
+.pop, .reb, .hip, .rock, .pop-rock {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 25px;
+    font-size: 14px;
+}
+
+
+#icone-cultural {
+    background-color: var(--bg-color-primary);
+    color: #fff;
+}
+
+.cultura-desc {
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.cultura-desc h3 {
+    font-family: monospace;
+    font-size: 18px;
+}
+
+.cultura-desc img {
+    margin-right: 230px;
+    border-radius: 10%;
+    box-shadow: 60px -26px 75px rgba(196, 194, 194, 0.89);
+
+}
+
+.icone {
+    margin-right: 125px;
+    width: 550px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap:35px;   
+    font-style: oblique;
+}
+
+
+
+.filantropia-desc1 {
+    margin: 50px;
+    font-style: oblique;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.filantropia-desc2 {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    height: 580px;
+}
+
+.filantropia-secoes {
+    position: relative;
+    top: 85px;
+    height: 450px;
+}
+
+.filantropia-desc2 h4 {
+    text-align: center;
+    padding-bottom: 35px;
+    font-size: 20px;
+}
+
+.filantropia-desc3 {
+    width: 450px;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.desc3 {
+    font-size: 15px;
+    border: 1px solid black;
+    padding: 49px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    width: 145px;
+    height: 160px;
+}
+
+.desc3 h5 {
+    width: 130px;
+    text-align: center;
+}
+
+.filantropia-div-1 {
+    border-left: 90px solid  rgb(70, 70, 3);
+    padding: 5px;
+    margin: 35px;
+    position: relative;
+    right: 80px;
+    width: 5px;
+}
+
+.filantropia-div-2 {
+    border-left: 9px solid  rgb(70, 70, 3);
+    padding: 5px;
+    margin: 25px;
+    height: 90px;
+    position: relative;
+    right: 75px;
+    bottom: 534px;
+    width: 5px;
+
+}
+
+.filantropia-div-3 {
+    border-left: 9px solid  rgb(70, 70, 3);
+    padding: 5px;
+    margin: 25px;
+    height: 90px;
+    position: relative;
+    left: 370px;
+    bottom: 195px;
+    width: 5px;
+
+}
+
+.filantropia-div-4 {
+    border-left: 90px solid  rgb(70, 70, 3);
+    padding: 5px;
+    margin: 35px;
+    position: relative;
+    left: 273px;
+    bottom: 240px;
+    width: 5px;
+
+}
+
+footer {
+    background-color: var(--bg-color-primary);
+    opacity: 95%;
+    font-size: 12px;
+    height: 100px;
+    text-align: center;
+    color: #fff;
+}
+ 
+.wikipedia {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+}
+
+.criacao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: var(--bg-color-primary);
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+.menuMobile {
+    display: none;
+    width: 40px;
+    height: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 20px;
+}
+
+.mm_line {
+    height: 3px;
+    background-color: white;
+}
+
+.seta {
+    position: fixed;
+    bottom: 60px;
+    right: 30px;
+    font-size: 30px;
+    background-color: white;
+    border-radius: 50%;
+    padding: 3px;
+    width: 50px;
+    height: 50px;
+    z-index: 100;
+    animation: float 3s ease-in-out infinite;
+}
+
+.seta:hover {
+    background-color: #fff;
+    box-shadow: 2px 2px 20px rgb(70, 70, 3);
+}
+
+@keyframes float {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}

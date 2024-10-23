@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Kings&family=Loved+by+the+King&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="responsive.css">
+    <script type="text/javascript">
+        window.onload = function() {
+            document.querySelector(".menuMobile").addEventListener("click", function() {
+                if(document.querySelector(".menu nav ul").style.display == 'flex') {
+                    document.querySelector(".menu nav ul").style.display = 'none';
+                } else {
+                    document.querySelector(".menu nav ul").style.display = 'flex';
+                }
+            });
+        };
+    </script>
+    <title>Document</title>
+</head>
+<body>
+
+    <header>
+        <div class="center">
+            <h1>Tribute to Michael Jackson</h1>
+            <img src="src/img/crown.png" alt="coroa" width="42" height="42">
+        </div>
+        
+        <div class="center-2 menu">
+            <nav>
+
+                <div class="menuMobile">
+                    <div class="mm_line"></div>
+                    <div class="mm_line"></div>
+                    <div class="mm_line"></div>
+                </div>
+
+                <ul id="inicio">
+                    <li class="active"><a href="#jornada">Jornada</a></li>
+                    <li><a href="#influencias">Influências</a></li>
+                    <li><a href="#icone-cultural">Ícone Cultural</a></li>
+                    <li><a href="#filantropia">Filantropia</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="imagem">
+    </div>
+
+    <main>      
+        <section class="sobre-mj">
+            <div>
+                    <img src="src/img/mj.jpg" alt="imagem do Michael Jackson sorrindo" width="250" class="img-desc">
+            </div>   
+
+            <div class="desc-mj">
+                    Michael Jackson, o Rei do Pop, deixou uma marca indelével na história da música e da cultura popular. Sua carreira meteórica,
+                     iniciada ainda na infância com o grupo Jackson 5, o catapultou para o estrelato mundial. No entanto, foi como artista solo 
+                     que ele realmente revolucionou a indústria musical.<br> Além de sua música, Michael Jackson era um ícone cultural, conhecido por
+                      sua moda excêntrica, sua aparência e por suas diversas causas sociais. Ele se tornou uma figura inspiradora para milhões de 
+                      pessoas em todo o mundo. <br>Seu legado continua a inspirar artistas de diversas gerações. A forma como ele combinava música, 
+                      dança e visual em seus trabalhos abriu caminho para muitos artistas contemporâneos. Jackson era um filantropo dedicado, 
+                      apoiando diversas causas sociais, como a luta contra a fome e a pobreza.
+            </div>
+        </section>
+
+        <section id="jornada">
+            <h1>Jornada de Michael Jackson</h1>
+            <div class="jornada-info">
+                <div><br>
+                <p>
+                    <strong>Os Primeiros Passos: Jackson 5</strong><br><br>
+                    A carreira de Michael Jackson começou muito cedo, ainda na infância, quando ele e seus irmãos formaram o grupo Jackson 5. 
+                    Com apenas alguns anos de idade, eles já conquistavam o mundo com seus vocais harmoniosos e coreografias enérgicas. A banda, 
+                    que incluía Jackie, Tito, Jermaine, Marlon e Michael, assinou contrato com a Motown Records e rapidamente se tornou um dos 
+                    maiores fenômenos musicais dos anos 60. A voz poderosa e o carisma inigualável de Michael o tornaram o centro das atenções do 
+                    grupo. Hits como "I Want You Back", "ABC" e "I'll Be There" se tornaram clássicos da música pop e marcaram uma geração.
+                </p><br>
+                <p>
+                    <strong>A Ascensão Solo e a Inovação</strong><br><br>
+                    Mesmo com o sucesso dos Jackson 5, Michael Jackson já demonstrava um talento e uma ambição que o impulsionavam para além do 
+                    grupo. No início dos anos 70, ele começou a lançar seus primeiros álbuns solo, como "Got to Be There" e "Ben". A grande virada 
+                    veio com o álbum "Off the Wall" (1979). Esse trabalho consolidou Michael como um artista solo de sucesso, com hits como "Don't 
+                    Stop 'Til You Get Enough" e "Rock with You". A partir daí, sua carreira decolou de forma meteórica. Com o álbum "Thriller" 
+                    (1982), Michael Jackson alcançou o ápice de sua fama. O álbum, que se tornou o mais vendido de todos os tempos, apresentou hits 
+                    como "Billie Jean", "Beat It" e a icônica faixa-título, que revolucionou a indústria musical com seu videoclipe inovador.
+                </p>
+                </div>
+                <img src="src/img/michael.jpg" alt="imagem de Michael Jackson cantando" width="300">
+            </div>
+        </section>
+
+        <div>
+            <a href="#inicio"><img src="src/img/pra-cima.png" alt="" width="50" class="seta">
+            </a>
+        </div>
+
+
+
+
+
+        <section id="influencias">
+            <div class="influ-mj">
+                <h1>Influências</h1>
+                <div class="desc-influ">
+                    Michael Jackson, o Rei do Pop, deixou um legado musical tão profundo que transcende gerações. Sua inovação, talento e carisma 
+                    moldaram a indústria musical de maneiras inimagináveis, influenciando uma infinidade de artistas. A lista de artistas 
+                    influenciados por Michael Jackson é extensa e abrange diversos gêneros musicais.
+                </div>
+
+                <div class="influ-secoes">
+                    <div class="secao1">
+                        <div class="pop">
+                            <img src="src/img/cd.png" alt="" width="40">
+                            <p><strong>Pop</strong></p>
+                            <p>Justin Timberlake, Britney Spears, Chris Brown e Bruno Mars, se inspiram em movimentos de dança, elementos do 
+                                estilo visual, acrobacias e coreografias complexas.</p>
+                        </div>
+                    </div>
+                    <div class="secao2">
+                        <div class="reb">
+                            <img src="src/img/vinyl-record.png" alt="" width="40">
+                            <p><strong>R&B</strong></p>
+                            <p>Sua influência se estende por todas as vertentes do R&B contemporâneo, desde a estética visual dos videoclipes 
+                                até as complexas coreografias e a busca por uma sonoridade única. Artistas influenciados por Michael Jackson: 
+                                Usher, The Weeknd, Janet Jackson</p>
+
+                        </div>
+                    </div>
+                    <div class="secao3">
+                        <div class="hip">
+                            <img src="src/img/hip-hop.png" alt="" width="40">
+                            <p><strong>Hip Hop</strong></p>
+                            <p>Michael  influenciou o hip hop através de ritmos e batidas, videoclipes inovadores,  dança e performance, quebra 
+                                de barreiras raciais, e pela cultura pop. Artistas influenciados por Michael Jackson: Kanye West, Jay-Z, Missy 
+                                Elliott e Outkast</p>
+
+                        </div>
+                    </div>
+                    <div class="secao4">
+                        <div class="rock">
+                            <img src="src/img/rock-n-roll.png" alt="" width="40">
+                            <p><strong>Rock</strong></p>
+                            <p>A influência de Michael Jackson no rock pode não ser tão explícita quanto em outros gêneros, mas é inegável. Sua 
+                                capacidade de combinar diferentes estilos musicais, sua busca pela perfeição sonora e suas performances épicas 
+                                inspiraram muitos artistas de rock a expandir seus horizontes e a criar músicas mais inovadoras. Artistas 
+                                influenciados por Michael Jackson: Guns N' Roses, Red Hot Chili Peppers, e Prince</p>
+
+                        </div>
+                    </div>
+                    <div class="secao5">
+                        <div class="pop-rock">
+                            <img src="src/img/music.png" alt="" width="40">
+                            <p><strong>Pop Rock</strong></p>
+                            <p>A influência de Michael Jackson no pop rock é evidente na fusão de gêneros, na produção musical, nos videoclipes,
+                                 nas performances e na quebra de barreiras. Sua capacidade de criar música que agradasse a um público amplo e 
+                                 sua busca por inovação inspiraram muitos artistas de pop rock a experimentarem novas sonoridades e a criar 
+                                 músicas mais memoráveis. Artistas influenciados por Michael Jackson: NSYNC
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="icone-cultural">
+                <h1>Ícone Cultural</h1>
+            <div class="cultura-desc">
+                <div>
+                    <h3>
+                        Por que Michael Jackson é considerado um ícone cultural?
+                    </h3>
+                    <ul class="icone">
+                        <li><strong>Inovação constante:</strong> Seja na música, nos videoclipes ou nas performances ao vivo, Michael Jackson sempre buscava inovar e superar os limites. Seus videoclipes, como "Thriller" e "Black or White", eram verdadeiras obras de arte que definiram novos padrões para a indústria musical.</li>
+                        <li><strong>Dança revolucionária:</strong> Sua dança era única e influente, combinando elementos do soul, funk e pop. Michael Jackson popularizou movimentos que se tornaram icônicos e inspiraram gerações de dançarinos.</li>
+                        <li><strong>Moda e estilo:</strong> Seu estilo pessoal era marcante e influente. Ele ajudou a popularizar tendências como o uso de jaquetas militares, luvas e o famoso chapéu fedora.</li>
+                        <li><strong>Quebra de barreiras:</strong> Michael Jackson foi um dos primeiros artistas negros a alcançar um sucesso global e a quebrar barreiras raciais na indústria musical.</li>
+                    </ul>
+                </div>
+                <img src="src/img/mj-king.jpg" alt="" width="550">
+            </div>
+        </section>
+
+        <section id="filantropia">
+            
+            <div class="filantropia-desc1">
+                <h1>Filantropia</h1>
+                <p>Além de ser um ícone musical, Michael Jackson era profundamente comprometido com causas humanitárias. Sua influência e 
+                generosidade o levaram a realizar diversas ações filantrópicas ao longo de sua vida.</p>
+            </div>
+
+            <section class="filantropia-desc2">
+                <div class="filantropia-divs">
+                    <div class="filantropia-div-1"></div>
+                    <img src="src/img/tumblr_05dafc99854ff0d49fe4eb5f66054568_8e9d18ad_2048.png" alt="" width="350">
+                    <div class="filantropia-div-2"></div>
+                    <div class="filantropia-div-3"></div>
+                    <div class="filantropia-div-4"></div>
+
+                </div>
+                <div class="filantropia-secoes">
+                    <h4>Um coração que transcendia a <span style="color: rgb(70, 70, 3);">Fama</span></h4>
+                    <div  class="filantropia-desc3">
+                        <div class="desc3">
+                            <h5>Luta contra a fome</h5>
+                            <img src="src/img/doacao-de-alimentos.png" alt="" width="40">
+                        </div>
+                        <div class="desc3">
+                            <h5>Igualdade social</h5>
+                            <img src="src/img/social (1).png" alt="" width="40">
+                        </div>
+                        <div class="desc3">
+                            <h5>Meio ambiente</h5>
+                            <img src="src/img/ecologia-e-meio-ambiente.png" alt="" width="40">
+                        </div>
+                        <div class="desc3">
+                            <h5>Direitos das crianças</h5>
+                            <img src="src/img/criancas.png" alt="" width="40">
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+    </main>
+
+    <footer>
+
+        <div class="wikipedia">
+            <img src="src/img/—Pngtree—michael jackson dancing silhouette material_637642.png" alt="" width="50">
+            <p>Para mais informações, <a href="https://pt.wikipedia.org/wiki/Michael_Jackson" target="_blank">clique aqui</a></p>
+        </div>
+        <hr>
+        <div class="criacao">
+            <p>Criado por, Flavianna Saldanha</p>
+            <a href="https://www.instagram.com/flavianna_saldanha/" target="_blank"><img src="src/img/instagram.png" alt="" width="20"></a>
+            <a href="https://www.linkedin.com/in/flavianna-saldanha/" target="_blank"><img src="src/img/linkedin.png" alt="" width="20"></a>
+            <a href="https://github.com/Flavianna-Saldanha" target="_blank"><img src="src/img/github.png" alt="" width="20"></a>
+        </div>
+    </footer>
+</body>
+</html>
+
